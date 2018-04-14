@@ -6,7 +6,9 @@ class Powerline {
     this.tabs = {
       1: 'boards',
       2: 'music',
-      3: 'tech'
+      3: 'tech',
+      4: 'a',
+      5: 'b'
     };
   }
 
