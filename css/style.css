@@ -496,6 +496,14 @@ body {
     padding: .5em;
     /* display: inline; */
 }
+#panels .a li {
+    padding: .5em;
+    /* display: inline; */
+}
+#panels .b li {
+    padding: .5em;
+    /* display: inline; */
+}
 
 #panels .music li a, #panels .tech li a {
     color: grey;
@@ -508,15 +516,42 @@ body {
 #panels .tech li a:hover {
     color: #fff;
 }
+#panels .a li a:hover {
+    color: #fff;
+}
+#panels .b li a:hover {
+    color: #fff;
+}
+
 
 #panels .music li a:hover::before,
 #panels .tech li a:hover::before {
     display: inline;
 }
+#panels .a li a:hover::before {
+    display: inline;
+}
+#panels .b li a:hover::before {
+    display: inline;
+}
+
 
 #panels .music li a::before,
 #panels .tech li a::before {
     content: '> ';
     font-weight: 400;
     display: none;
+    
+}
+#panels .a li a::before {
+    content: '> ';
+    font-weight: 400;
+    display: none;
+    
+}
+#panels .b li a::before {
+    content: '> ';
+    font-weight: 400;
+    display: none;
+    
 }
