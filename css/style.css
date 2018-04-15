@@ -319,8 +319,6 @@ body {
 
 #tabs ul li[active]:nth-child(2) ~ li:last-child { margin: 0 0 0 35px; }
 #tabs ul li[active]:nth-child(3) ~ li:last-child { margin: 0 0 0 70px; }
-#tabs ul li[active]:nth-child(4) ~ li:last-child { margin: 0 0 0 105px; }
-#tabs ul li[active]:nth-child(5) ~ li:last-child { margin: 0 0 0 140px; }
 
 
 #panels {
@@ -373,8 +371,6 @@ body {
 
 #panels ul:nth-child(2) { background: #fff url("../img/bg-2.gif") repeat center left fixed; }
 #panels ul:nth-child(3) { background: #fff url("../img/bg-3.gif") repeat center left fixed; }
-#panels ul:nth-child(4) { background: #fff url("../img/bg-3.gif") repeat center left fixed; }
-#panels ul:nth-child(5) { background: #fff url("../img/bg-3.gif") repeat center left fixed; }
 
 #panels ul[active] {
     right: 0;
@@ -431,27 +427,6 @@ body {
     flex-wrap: wrap;
 }
 
-#panels .boards .links a {
-    color: #bfbfbf;
-    text-decoration: none;
-    font: 700 18px 'Roboto', sans-serif;
-    transition: all .2s;
-    display: inline-block;
-    padding: .4em .7em;
-    background: rgba(0, 0, 0, .35);
-    box-shadow: 0 3px #2b2b2b, 0 5px 10px rgba(0, 0, 0, .5);
-    border-radius: 2px;
-    margin-bottom: .7em;
-}
-
-#panels .boards .links a:not(:last-child) { margin-right: .3em }
-
-#panels .boards .links a:hover {
-    transform: scale(1.2);
-    box-shadow: 0 0 #2b2b2b, 0 0 0 rgba(0, 0, 0, .5), 0 -4px 5px rgba(0, 0, 0, .1);
-    color: #fff;
-}
-
 #panels ul::after {
     content: attr(class);
     position: absolute;
@@ -488,6 +463,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 1px;
+    margin-bottom: .7em;
 }
 
 #panels .music li,
@@ -495,14 +471,7 @@ body {
     padding: .5em;
     /* display: inline; */
 }
-#panels .a li {
-    padding: .5em;
-    /* display: inline; */
-}
-#panels .b li {
-    padding: .5em;
-    /* display: inline; */
-}
+
 
 #panels .music li a, #panels .tech li a {
     color: grey;
@@ -515,22 +484,10 @@ body {
 #panels .tech li a:hover {
     color: #fff;
 }
-#panels .a li a:hover {
-    color: #fff;
-}
-#panels .b li a:hover {
-    color: #fff;
-}
 
 
 #panels .music li a:hover::before,
 #panels .tech li a:hover::before {
-    display: inline;
-}
-#panels .a li a:hover::before {
-    display: inline;
-}
-#panels .b li a:hover::before {
     display: inline;
 }
 
@@ -542,15 +499,4 @@ body {
     display: none;
     
 }
-#panels .a li a::before {
-    content: '> ';
-    font-weight: 400;
-    display: none;
-    
-}
-#panels .b li a::before {
-    content: '> ';
-    font-weight: 400;
-    display: none;
-    
-}
+
