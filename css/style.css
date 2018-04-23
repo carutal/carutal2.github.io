@@ -341,7 +341,7 @@ body {
     height: 100%;
     right: 100%;
     background: #fff url("../img/bg-1.gif") repeat center left fixed;
-    transition: all .6s;
+    transition: all .4s;
 }
 
 #panels ul:nth-child(2),
